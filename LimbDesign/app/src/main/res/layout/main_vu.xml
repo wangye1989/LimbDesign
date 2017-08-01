@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.w.ld.MainVuActivity">
+
+    <!-- paddingTop 向上内间距   paddingBottom 向下内间距-->
+    <LinearLayout
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#515151"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        >
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@mipmap/ic_launcher_round"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你好"
+            android:layout_marginLeft="20dip"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
