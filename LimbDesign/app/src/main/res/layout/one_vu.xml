@@ -28,7 +28,17 @@
         android:id="@+id/btnA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dip"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dip"></com.w.limbui.btn.LimbBtnA>
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_a"
+        android:text="你好"
+        />
 
 </LinearLayout>

@@ -2,13 +2,16 @@ package com.w.ld.demo.vu;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.w.jinone.base.AnimSwitchEnum;
 import com.w.jinone.base.BaseVu;
 import com.w.jinone.base.VuManager;
 import com.w.ld.demo.R;
+import com.w.limbui.btn.LimbBtnA;
 
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -17,6 +20,12 @@ import butterknife.OnClick;
  */
 
 public class OneVu extends BaseVu {
+
+    @Bind(R.id.btnB)
+    public Button btnB;
+
+    @Bind(R.id.btnA)
+    public LimbBtnA limbBtnA;
 
     @Override
     public void init(LayoutInflater inflater, ViewGroup container) {
@@ -40,8 +49,19 @@ public class OneVu extends BaseVu {
 
     @OnClick(R.id.btnA)
     public void aClick(){
-        VuManager.getInstance().popVu();
+        flag=!flag;
+        limbBtnA.setBackgroundResource(flag==true? R.drawable.btn_b:R.drawable.btn_c);
     }
+
+    private boolean flag=false;
+    @OnClick(R.id.btnB)
+    public void bClick(){
+        flag=!flag;
+        btnB.setBackgroundResource(flag==true? R.drawable.btn_b:R.drawable.btn_a);
+    }
+
+
+
 
 
 }

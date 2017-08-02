@@ -9,7 +9,7 @@
     android:paddingBottom="5dip"
     android:paddingLeft="10dip"
     android:paddingRight="10dip"
-    android:background="@drawable/shape_corner_stroke"
+    android:background="@drawable/btn_a"
     >
     <ImageView
         android:id="@+id/showIcon"
