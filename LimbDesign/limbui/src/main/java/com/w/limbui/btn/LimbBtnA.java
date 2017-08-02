@@ -22,23 +22,20 @@ import butterknife.ButterKnife;
  */
 
 public class LimbBtnA extends LinearLayout {
-    
+
 
     public LimbBtnA(Context context) {
         super(context);
-        Log.e("TAG", "LimbBtnA: 1111" );
         bindView(context);
     }
 
     public LimbBtnA(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        Log.e("TAG", "LimbBtnA: 2222" );
         bindView(context);
     }
 
     public LimbBtnA(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        Log.e("TAG", "LimbBtnA: 33333" );
         bindView(context);
     }
 
