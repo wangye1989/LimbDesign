@@ -1,5 +1,7 @@
 # LimbDesign
 
+控件库的文件名是 LimbDesignPreview.sketch
+
 - 2017-08-04
     - 需sketch 版本 v45.1 或以上
     - 上传预览版本，后续持续更新
