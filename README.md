@@ -27,9 +27,16 @@
 ![控件示例](https://github.com/wangye1989/LimbDesign/blob/master/pic/%E6%8E%A7%E4%BB%B6%E7%A4%BA%E4%BE%8B.png?raw=true)
 
 ## 咋用？
+注：GIF 图片有点大，要多等一会。
 
+
+全局配置颜色
 ![全局配置颜色](https://github.com/wangye1989/LimbDesign/blob/master/pic/1gif_%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E9%A2%9C%E8%89%B2.gif?raw=true)
 
+
+自定义按钮
 ![自定义按钮](https://github.com/wangye1989/LimbDesign/blob/master/pic/2gif_%E5%BC%B9%E7%AA%97%E9%80%89%E6%8B%A9%E5%BD%A2%E7%8A%B6.gif?raw=true)
 
-![怎么做一个下拉弹窗](https://github.com/wangye1989/LimbDesign/blob/master/pic/3gif_%E4%B8%8B%E6%8B%89%E5%BC%B9%E7%AA%97.gif?raw=true)
+
+怎么做一个控件
+![怎么做一个控件](https://github.com/wangye1989/LimbDesign/blob/master/pic/3gif_%E4%B8%8B%E6%8B%89%E5%BC%B9%E7%AA%97.gif?raw=true)
