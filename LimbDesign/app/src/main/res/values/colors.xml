@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-</resources>
+    <color name="forfun_50">#e5e5e7</color>
+    <color name="forfun_100">#bdbdc4</color>
+    <color name="forfun_200">#91929c</color>
+    <color name="forfun_300">#656674</color>
+    <color name="forfun_400">#444557</color>
+    <color name="forfun_500">#232439</color>
+    <color name="forfun_600">#1f2033</color>
+    <color name="forfun_700">#1a1b2c</color>
+    <color name="forfun_800">#151624</color>
+    <color name="forfun_900">#0c0d17</color>
+    <color name="forfun_A100">#5a6fff</color>
+    <color name="forfun_A200">#2742ff</color>
+    <color name="forfun_A400">#001ef3</color>
+    <color name="forfun_A700">#001bda</color>
+    <resources>
