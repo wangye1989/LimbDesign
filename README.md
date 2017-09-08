@@ -23,6 +23,12 @@
 
 各种 元素 组成了控件，不同控件的组合搭配可以形成新的控件。控件的组合形成页面，页面构成了我们见到的产品。
 
+## 举个例子🌰
+
+![伪代码和 UI 样式说明](https://github.com/wangye1989/LimbDesign/blob/master/pic/%E4%BC%AA%E4%BB%A3%E7%A0%81%E5%92%8C%E6%A0%B7%E5%BC%8F.png?raw=true)
+
+首先定义颜色、尺寸、形状，这些最基本的元素，然后通过配置不同的基础元素，实现全局控件的配置和统一。然后通过对不同 shapeStyle 的设置，对页面大型控件做配置，比如 tab bar、navigation bar、item 等等。
+
 ## 这玩意可以干嘛？
 1. 可能不需要画 icon 了，内置 Material Design icon，和一些可以表达状态和情感的 emoji 表情。
 2. 内置可扩展的 symbol ，乐高 + 变形金刚的玩法；
@@ -40,9 +46,7 @@
 注：GIF 图片有点大，要多等一会。
 
 
-全局配置颜色
 
-![全局配置颜色](https://github.com/wangye1989/LimbDesign/blob/master/pic/1gif_%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E9%A2%9C%E8%89%B2.gif?raw=true)
 
 
 自定义按钮
